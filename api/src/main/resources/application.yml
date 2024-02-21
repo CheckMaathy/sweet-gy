@@ -1,0 +1,11 @@
+spring:
+  main:
+    banner-mode: 'console'
+  application:
+    name: "@project.name@"
+    version: "@project.version@"
+    description: "@project.description@"
+
+server:
+  servlet:
+    context-path: /api/sweeties/v1
