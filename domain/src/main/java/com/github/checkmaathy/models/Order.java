@@ -1,6 +1,6 @@
 package com.github.checkmaathy.models;
 
-public record OrderRequestDTO(
+public record Order(
         String clientName,
         String cellphone,
         String paymentType,
